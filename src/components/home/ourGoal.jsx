@@ -6,27 +6,33 @@ export default function OurGoal() {
       <h1 className="text-[#AF0606] text-center font-bold py-3 text-4xl capitalize ">
         Unlocking your potential: Empowering you to achieve your goals.
       </h1>
-      <div className="w-full lg:px-20 px-10 flex lg:flex-row xl:flex-row flex-col justify-center items-center gap-8 py-10">
+      <div className="w-full  px-10 flex lg:flex-row xl:flex-row flex-col justify-center items-center gap-8 py-10">
         {data.goals.map((goal) => {
           return (
             <div
-              key={goal.imageUrl}
-              className="lg:w-2/3 w-full bg-white flex flex-col justify-center items-center shadow-2xl rounded"
+              key={goal.title}
+              className="lg:w-2/3 h-max w-full bg-white flex flex-col justify-center items-center shadow-2xl rounded"
             >
-              <div className="">
-                <img src={goal.imageUrl} alt="" />
+              <div>
+                <img src={goal.imageUrl} alt="" className="w-full h-[30vh] object-cover" />
               </div>
               <div>
-                <h2 className="py-3 text-blue-800 font-ubuntu text-xl font-semibold">{goal.title}</h2>
+                <h2 className="py-3 text-blue-800 font-ubuntu text-3xl font-semibold">
+                  {goal.title}
+                </h2>
               </div>
               <div>
-                <h3>{goal.subTitle}</h3>
+                <h3 className="text-gray-700 font-ubuntu text-xl font-semibold">
+                  {goal.subTitle}
+                </h3>
               </div>
               <div>
-                <p>{goal.paragraph}</p>
+                <p className="text-gray-500 font-ubuntu text-lg py-2 px-2 font-normal text-center">
+                  {goal.paragraph}
+                </p>
               </div>
-              <div>
-                <button className="py-3 font-bold uppercase font-openSan rounded-full px-6 bg-blue-800 border-2 border-white text-white">
+              <div className="pb-3">
+                <button className="py-2 font-bold uppercase font-openSan rounded-full px-8 bg-blue-800 border-2 border-white text-white">
                   Read More
                 </button>
               </div>

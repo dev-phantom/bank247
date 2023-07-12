@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <div className="z-[5] w-full bg-transparent px-1 ">
       <div className="items-center justify-between gap-3 shadow-lg rounded py-4 px-7 md:flex md:w-full md:px-4 lg:px-20">
-        <div>test</div>
+        <div>Logo</div>
         <div className="pl-20">
           <ul className="z-[9] w-full text-[#AF0606] capitalize pl-5  md:pb-0 transition-all duration-300 ease-in  md:z-auto md:flex justify-center items-center md:w-auto md:items-center md:pl-0 ">
             {links.map((link) => (
