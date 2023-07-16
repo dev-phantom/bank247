@@ -46,7 +46,13 @@ const Footer = () => {
     <footer className="text-blue-500 px-4 lg:pl-20 w-full bg-white py-10 font-inter">
       <div className="flex flex-col md:flex-row gap-8">
         <div className="">
-          <div>logo</div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/phantom1245/image/upload/v1689467154/bank247/IMG-20230714-WA0023-removebg-preview_rp25wd.png"
+              alt="logo"
+              className="w-[8rem]"
+            />
+          </div>
           <div className="text-[#AF0606] w-[80%] py-4 text-base md:text-[18px] font-normal capitalize leading-normal">
             Lörem ipsum oliga ånade, läledes likivis geohuliga. Ögen teravinera
             samän lävud. Donat heteronde.
@@ -65,7 +71,7 @@ const Footer = () => {
         <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-6">
           {footerSections.map((section) => (
             <div key={section.title}>
-              <div className="col-span-1">
+              <div className="">
                 <ListHeader>{section.title}</ListHeader>
                 <ul>
                   {section.items.map((item) => (
