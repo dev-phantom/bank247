@@ -3,10 +3,10 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   let links = [
-    { name: "Individual", link: "/" },
-    { name: "Businesses", link: "/" },
+    { name: "Personal", link: "/" },
+    { name: "Business", link: "/" },
     { name: "Financial Institution", link: "/contact" },
-    { name: "Consultant", link: "/register" },
+    { name: "Advisors", link: "/register" },
   ];
 
   let navigate = useNavigate();
@@ -64,7 +64,7 @@ export default function Navbar() {
               onClick={() => navigate("/login")}
               className="py-2 font-bold font-openSan rounded-full px-8 bg-[#FF5700] text-white"
             >
-              Get A Loan
+              Get a Loan
             </button>
           </div>
         </div>

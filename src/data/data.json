@@ -1,27 +1,27 @@
 {
   "goals": [
     {
-      "title": "Individual",
-      "subTitle": "Get financing.",
-      "paragraph": "Originate more loans with access to a pool of prequalified borrowers.",
+      "title": "Personal",
+      "subTitle": "Get financing",
+      "paragraph": "Gain access to loans for your personal needs .",
       "imageUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1689145056/bank247/chase-chappell-m29D0DvAhF0-unsplash_q2xnqe.jpg"
     },
     {
       "title": "Business",
-      "subTitle": "Accelerate Franchise Sales.",
-      "paragraph": "Top brands partner with us for optimized candidate vetting and financing.",
+      "subTitle": "Grow Your Business",
+      "paragraph": "Run your business smarter with access to vital funding",
       "imageUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1689145037/bank247/mina-rad-qFSQFSmfZkA-unsplash_gwroqh.jpg"
     },
     {
-      "title": "Loan Brokers",
-      "subTitle": "Source borrowers.",
-      "paragraph": "Originate more loans with access to a pool of prequalified borrowers.",
+      "title": "Finiacial Institution",
+      "subTitle": "Create quality access",
+      "paragraph": "Create more loans with access to quality borrowers",
       "imageUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1689145037/bank247/windows-241bwQl2uWE-unsplash_wjhhfu.jpg"
     },
     {
-      "title": "Consultant",
-      "subTitle": "Connect with lenders.",
-      "paragraph": "Get easy access to lenders while exceeding your client’s expectations.",
+      "title": "Advisors",
+      "subTitle": "Expand your reach ",
+      "paragraph": "Connect your customers to quality lenders",
       "imageUrl": "https://res.cloudinary.com/phantom1245/image/upload/v1689145056/bank247/chase-chappell-m29D0DvAhF0-unsplash_q2xnqe.jpg"
     }
   ]
