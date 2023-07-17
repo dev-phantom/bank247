@@ -9,26 +9,22 @@ const ListHeader = ({ children }) => {
 const Footer = () => {
   const footerSections = [
     {
-      title: "Explore",
+      title: "Enquire",
       items: [
         { label: "Home", href: "/" },
-        { label: "Services", href: "/" },
-        { label: "About", href: "/" },
-        { label: "Contact", href: "/contact" },
-        { label: "Loan bokers", href: "/contact" },
-        { label: "blog", href: "/contact" },
-        { label: "Lenders", href: "/contact" },
+        { label: "Personal", href: "/" },
+        { label: "Business", href: "/" },
+        { label: "Financial Institution", href: "/contact" },
+        { label: "Advisors", href: "/contact" },
       ],
     },
     {
-      title: "Learn",
+      title: "Discover",     
       items: [
         { label: "Help center", href: "#" },
         { label: "Terms Of Services ", href: "#" },
         { label: "Legal", href: "#" },
         { label: "Privacy", href: "#" },
-        { label: "Industry Trends", href: "#" },
-        { label: "Success Stories", href: "#" },
       ],
     },
     {
@@ -54,8 +50,7 @@ const Footer = () => {
             />
           </div>
           <div className="text-[#AF0606] w-[80%] py-4 text-base md:text-[18px] font-normal capitalize leading-normal">
-            Lörem ipsum oliga ånade, läledes likivis geohuliga. Ögen teravinera
-            samän lävud. Donat heteronde.
+            Bringing banks and customers closer
           </div>
           <div className="">
             <span className="text-[#AF0606] text-opacity-80 text-base md:text-16px font-normal capitalize leading-snug">
