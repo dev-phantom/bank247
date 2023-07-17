@@ -1,15 +1,16 @@
-
 export default function SubHeader() {
   return (
     <div className="bg-[#073B6A]  w-full pt-14 flex text-white flex-col justify-center  items-center ">
       <h1 className="text-4xl  font-bold">
-        Accelerate your business forward with Bank247.
+        Power your business forward with Bank247.
       </h1>
       <p className="text-center text-xl font-normal pt-8 pb-14 w-[60%]">
-        With 10+ years of small business expertise and one connected marketplace
-        of tech-smart tools and services, we deliver the right solutions at the
-        right time to accelerate success. <br />
-        <b>Ready? Let’s get exactly what you need to exceed out there.</b>
+        leverage our technology to connect with Financial Institution to get
+        funding you need
+        <br />
+        <a href="/login">
+          <b>Your next step begins right here.</b>
+        </a>
       </p>
       <div className="w-full gap-3 bg-[#FF5700] py-4 text-center flex justify-center items-center  ">
         <div>
@@ -29,12 +30,9 @@ export default function SubHeader() {
           </svg>
         </div>
         <h3 className="border-b-2 border-white  ">
-          Congrats. Karthikeyan Patchamuthu & Indrani Karthikeyan successfully
-          secured funding through our platform to open their first Pet Supplies
-          Plus.
+          Bank247 your one source for connecting with banks, financial institution and expert advisors 
         </h3>
       </div>
     </div>
   );
-
 }

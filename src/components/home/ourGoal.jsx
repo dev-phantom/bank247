@@ -3,8 +3,8 @@ import data from "../../data/data.json"
 export default function OurGoal() {
   return (
     <div className="py-12">
-      <h1 className="text-[#AF0606] text-center font-bold py-3 text-4xl capitalize ">
-        Unlocking your potential: Empowering you to achieve your goals.
+      <h1 className="text-[#AF0606] text-center font-bold py-3 text-4xl  ">
+        Unlocking your potentials: empowering you to achieve your goals.
       </h1>
       <div className="w-full  px-10 flex lg:flex-row xl:flex-row flex-col justify-center items-center gap-8 py-10">
         {data.goals.map((goal) => {
@@ -33,7 +33,7 @@ export default function OurGoal() {
               </div>
               <div className="pb-3">
                 <button className="py-2 font-bold uppercase font-openSan rounded-full px-8 bg-blue-800 border-2 border-white text-white">
-                  Read More
+                  Learn More
                 </button>
               </div>
             </div>
