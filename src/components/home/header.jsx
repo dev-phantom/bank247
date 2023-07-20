@@ -9,7 +9,7 @@ export default function Header() {
       </h2>
       <div className=" flex justify-center  items-center gap-5 pt-8">
         <div>
-          <button className="py-2 font-bold uppercase font-openSan rounded-full px-8 bg-[#FF5700] text-white">
+          <button className="py-2 font-bold uppercase font-openSan rounded-full px-8 bg-buttonColor text-white">
             get financed
           </button>
         </div>

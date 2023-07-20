@@ -1,9 +1,7 @@
 export default function SubHeader() {
   return (
     <div className="bg-[#073B6A]  w-full pt-14 flex text-white flex-col justify-center  items-center ">
-      <h1 className="text-4xl  font-bold">
-        Power your business with Bank247
-      </h1>
+      <h1 className="text-4xl  font-bold">Power your business with Bank247</h1>
       <p className="text-center text-xl font-normal pt-8 pb-14 w-[60%]">
         Leverage our technology to connect with financial institutions for
         funding you need
@@ -12,7 +10,7 @@ export default function SubHeader() {
           <b>Your next step begins right here</b>
         </a>
       </p>
-      <div className="w-full gap-3 bg-[#FF5700] py-4 text-center flex justify-center items-center  ">
+      <div className="w-full gap-3 bg-buttonColor py-4 text-center flex justify-center items-center  ">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +28,8 @@ export default function SubHeader() {
           </svg>
         </div>
         <h3 className="border-b-2 border-white  ">
-          Bank247: your one source for connecting with banks, financial institutions and expert advisors 
+          Bank247: your one source for connecting with banks, financial
+          institutions and expert advisors
         </h3>
       </div>
     </div>
