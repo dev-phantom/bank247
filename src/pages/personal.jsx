@@ -53,12 +53,61 @@ export default function Personal() {
             lender and get the funding and resources to realize your dreams and
             move your business forward. We got this. Let’s go.
           </h2>
-          <div className="w-full flex w-full justify-center items-center bg-blue-800 ">
+          <div className=" relative w-full flex h-full justify-center items-center my-10">
             <img
               src="https://res.cloudinary.com/phantom1245/image/upload/v1689145056/bank247/chase-chappell-m29D0DvAhF0-unsplash_q2xnqe.jpg"
               alt=""
-              className="w-1/2 shadow-2xl"
+              className="w-1/2 shadow-2xl z-[3] rounded-xl"
             />
+            <div className="h-[70%] absolute -bottom-9 z[-3] bg-indigo-800 w-full"></div>
+          </div>
+        </div>
+
+        <div className="flex w-full px-14 my-20 justify-between items-start">
+          <div className="w-1/2 pt-10">
+            <h1 className="text-4xl font-semibold leading-[3rem] text-indigo-800">
+              We’re passionate about helping your small business grow.
+            </h1>
+            <p className="text-2xl py-6 font-normal">
+              Our easy one-step online application simplifies the lending
+              process — so you only have to enter your information once. And,
+              we’re here to help you provide the exact information the banks
+              need to move forward in the lending process for SBA funding or
+              conventional loans.
+            </p>
+          </div>
+          <div className="w-1/2 justify-end flex items-start">
+            <img
+              src="https://res.cloudinary.com/phantom1245/image/upload/v1690147736/bank247/andrew-power-y9L5-wmifaY-unsplash_t9toit.jpg"
+              alt=""
+              className="w-[65%] shadow-2xl z-[3] rounded-e-xl"
+            />
+          </div>
+        </div>
+
+        <div className="w-full flex flex-row px-20 py-20 my-9 bg-blue-100">
+          <div className="w-1/2 justify-start flex items-start">
+            <img
+              src="https://res.cloudinary.com/phantom1245/image/upload/v1687246914/safeguard-heart/Rectangle_1308_3_wplitb.png"
+              alt=""
+              className="w-full shadow-2xl "
+            />
+          </div>
+
+          <div className="flex justify-center flex-col pl-20">
+            <h1 className="w-[80%] text-5xl text-primary font-bold">
+              We live and breathe small business.
+            </h1>
+            <p className="text-xl text-gray-900 w-[60%] py-10 font-normal">
+              From startups to large multi-unit owners, tens of thousands of
+              small business owners have been putting their trust in us since
+              2010.
+            </p>
+            <div>
+              <button className="py-2 border-2 border-black font-bold uppercase font-openSan rounded-full px-8 bg-buttonColor text-white">
+                about Bank247
+              </button>
+            </div>
           </div>
         </div>
       </main>
