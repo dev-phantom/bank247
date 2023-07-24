@@ -4,7 +4,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 export default function Navbar() {
   let links = [
     { name: "Personal", link: "/personal" },
-    { name: "Business", link: "/" },
+    { name: "Business", link: "/business" },
     { name: "Financial Institution", link: "/contact" },
     { name: "Advisors", link: "/register" },
   ];
