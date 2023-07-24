@@ -1,3 +1,7 @@
+import KnowMore from "../components/business/knowMore";
+import OurPassion from "../components/business/ourPassion";
+import OurTrust from "../components/business/ourTrust";
+import Partners from "../components/business/partner";
 import DefaultLayout from "../components/layout/defaultLayout";
 import Header from "../components/layout/header";
 
@@ -16,6 +20,20 @@ export default function Business() {
           secondBtnTextClass="hidden"
         />
       </header>
+      <main>
+        <section>
+          <Partners />
+        </section>
+        <section>
+          <OurTrust />
+        </section>
+        <section>
+            <OurPassion />
+        </section>
+        <section>
+            <KnowMore/>
+        </section>
+      </main>
     </DefaultLayout>
   );
 }
