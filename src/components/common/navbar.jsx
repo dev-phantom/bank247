@@ -5,7 +5,7 @@ export default function Navbar() {
   let links = [
     { name: "Personal", link: "/personal" },
     { name: "Business", link: "/business" },
-    { name: "Financial Institution", link: "/contact" },
+    { name: "Financial Institution", link: "/financial-institution" },
     { name: "Advisors", link: "/register" },
   ];
 
