@@ -6,7 +6,7 @@ export default function Navbar() {
     { name: "Personal", link: "/personal" },
     { name: "Business", link: "/business" },
     { name: "Financial Institution", link: "/financial-institution" },
-    { name: "Advisors", link: "/register" },
+    { name: "Advisors", link: "/advisors" },
   ];
 
   let navigate = useNavigate();
