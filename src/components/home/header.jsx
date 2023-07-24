@@ -1,4 +1,6 @@
+import { useNavigate } from "react-router-dom";
 export default function Header() {
+  let navigate = useNavigate()
   return (
     <header className="bg-[url('https://res.cloudinary.com/phantom1245/image/upload/v1689114590/bank247/martin-martz-rMRT4hF-Fsg-unsplash_y3douq.jpg')] h-[70vh] w-full bg-cover bg-no-repeat flex flex-col gap-5 justify-center items-center text-white">
       <h1 className="text-5xl font-bold">
@@ -14,7 +16,10 @@ export default function Header() {
           </button>
         </div>
         <div>
-          <button className="py-2 font-bold uppercase font-openSan rounded-full px-8 bg-transparent border-2 border-white text-white">
+          <button
+            onClick={() => navigate("/personal")}
+            className="py-2 font-bold uppercase font-openSan rounded-full px-8 bg-transparent border-2 border-white text-white"
+          >
             learn more
           </button>
         </div>

@@ -1,6 +1,8 @@
 import data from "../../data/data.json"
+import { useNavigate } from "react-router-dom";
 
 export default function OurGoal() {
+  let navigate = useNavigate()
   return (
     <div className="py-12">
       <h1 className="text-[#AF0606] text-center font-bold py-3 text-4xl  ">
@@ -14,7 +16,11 @@ export default function OurGoal() {
               className="lg:w-2/3 h-max w-full bg-white flex flex-col justify-center items-center shadow-2xl rounded"
             >
               <div>
-                <img src={goal.imageUrl} alt="" className="w-full h-[30vh] object-cover" />
+                <img
+                  src={goal.imageUrl}
+                  alt=""
+                  className="w-full h-[30vh] object-cover"
+                />
               </div>
               <div>
                 <h2 className="py-3 text-blue-800 font-ubuntu text-3xl font-semibold">
@@ -32,7 +38,10 @@ export default function OurGoal() {
                 </p>
               </div>
               <div className="pb-3">
-                <button className="py-2 font-bold uppercase font-openSan rounded-full px-8 bg-blue-800 border-2 border-white text-white">
+                <button
+                  onClick={() => navigate("/personal")}
+                  className="py-2 font-bold uppercase font-openSan rounded-full px-8 bg-blue-800 border-2 border-white text-white"
+                >
                   Learn More
                 </button>
               </div>
