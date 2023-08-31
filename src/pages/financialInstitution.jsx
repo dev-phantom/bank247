@@ -9,7 +9,7 @@ export default function FinancialInstitution() {
         <Header
           pageName="Financial Institution"
           firstText="Originate more"
-          imgUrl="https://res.cloudinary.com/phantom1245/image/upload/v1690210175/bank247/lemon-tree_ss94ur.jpg"
+          imgUrl="https://res.cloudinary.com/phantom1245/image/upload/v1693482646/bank247/IMG-20230831-WA0032_najkvg.jpg"
           firstTextSpan=" "
           secondText="loans faster and easier."
           secondTextSpan=" "

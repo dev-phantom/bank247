@@ -21,9 +21,9 @@ export default function Navbar() {
       <div className="items-center justify-between gap-3 shadow-lg rounded py-4 px-7 flex w-full md:px-4 lg:px-20">
         <div onClick={() => navigate("/")} className="cursor-pointer">
           <img
-            src="https://res.cloudinary.com/phantom1245/image/upload/v1689467154/bank247/IMG-20230714-WA0023-removebg-preview_rp25wd.png"
+            src="https://res.cloudinary.com/phantom1245/image/upload/v1693482646/bank247/IMG-20230831-WA0031-removebg-preview_mtohiw.png"
             alt="logo"
-            className="w-[8rem]"
+            className="w-[3.5rem]"
           />
         </div>
         <div className="pl-20">

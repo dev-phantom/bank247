@@ -19,7 +19,7 @@ const Footer = () => {
       ],
     },
     {
-      title: "Discover",     
+      title: "Discover",
       items: [
         { label: "Help center", href: "#" },
         { label: "Terms Of Services ", href: "#" },
@@ -44,9 +44,9 @@ const Footer = () => {
         <div className="">
           <div>
             <img
-              src="https://res.cloudinary.com/phantom1245/image/upload/v1689467154/bank247/IMG-20230714-WA0023-removebg-preview_rp25wd.png"
+              src="https://res.cloudinary.com/phantom1245/image/upload/v1693482646/bank247/IMG-20230831-WA0031-removebg-preview_mtohiw.png"
               alt="logo"
-              className="w-[8rem]"
+              className="w-[3.5rem]"
             />
           </div>
           <div className="text-[#AF0606] w-[80%] py-4 text-base md:text-[18px] font-normal capitalize leading-normal">
@@ -87,4 +87,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
