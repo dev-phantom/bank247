@@ -10,7 +10,7 @@ export default function Advisors() {
         <Header
           pageName="Advisors"
           firstText="Take your"
-          imgUrl="https://res.cloudinary.com/phantom1245/image/upload/v1690210175/bank247/lemon-tree_ss94ur.jpg"
+          imgUrl="https://res.cloudinary.com/phantom1245/image/upload/v1693482646/bank247/IMG-20230831-WA0033_zf9ao3.jpg"
           firstTextSpan="business"
           secondText="to the next level."
           secondTextSpan=" "
@@ -23,7 +23,7 @@ export default function Advisors() {
           <OurTrust />
         </section>
         <section>
-            <OurPassion />
+          <OurPassion />
         </section>
       </main>
     </DefaultLayout>
