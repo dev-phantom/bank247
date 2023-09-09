@@ -10,7 +10,7 @@ export default function Advisors() {
         <Header
           pageName="Advisors"
           firstText="Take your"
-          imgUrl="https://res.cloudinary.com/phantom1245/image/upload/v1693482646/bank247/IMG-20230831-WA0033_zf9ao3.jpg"
+          imgUrl="https://res.cloudinary.com/phantom1245/image/upload/v1694218764/bank247/20230909_011510_vgsipj.jpg"
           firstTextSpan="business"
           secondText="to the next level."
           secondTextSpan=" "
