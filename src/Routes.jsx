@@ -11,7 +11,6 @@ import Business from "./pages/business";
 import FinancialInstitution from "./pages/financialInstitution";
 import Advisors from "./pages/advisors";
 
-
 // creates routes and returns router object for app
 const router = createBrowserRouter(
   createRoutesFromElements(
